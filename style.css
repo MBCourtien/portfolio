@@ -1,60 +1,72 @@
 
 
-
+/* Align all text to the center*/
 header,nav,h1,h2,h3,p,ul,ol {
     text-align: center;
 }
+/* set font style and color of font throughout the page*/
 h1,h2,h3,p,ol,ul,li {
     font-family: Georgia;
     color: #000000;
-    color: #000000;
 }
-
+/* set font size and margins for paragraphs and lists*/
 p, ul, ol {
     font-size: 18px;
     margin-left: auto;
     margin-right:auto;
 }
-
+/* set background color and padding of header and footer*/
 header, footer {
     background-color: #2F4F4F;
     padding: 60px 0 20px 20px;
     margin: 0;
 }
+/* set width and margin for body of the webpage*/
 body {
-    background-color:#A9A9A9;
     width: auto;
     margin: 1px;
 }
-main {
+/*set background color of body and main*/
+main, body {
     background-color: #C0C0C0;
 }
 
-
+/*set font of h1*/
 h1{
     font-size: 72px;
 }
 
-
+/*set font size of h3*/
 h3{
     font-size: 26px;
 }
 
-
+/*set width of images and use display: block to center*/
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
-
-
-a:link {color:#708090}
+/*set height of footer*/
+footer {
+    height: 50px;
+}
+/*set colors for user interactions with links*/
+a:link {color: #000000}
 a:hover {color:darkgreen}
 a:active {color:purple}
 a:visited {color:#778899}
 
+/*set parameters for google maps location*/
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 95%;
+}
+
+/* established pseudo class for type of box and box display parameters*/
 .border-box {
     box-sizing: border-box;
     display: block;
